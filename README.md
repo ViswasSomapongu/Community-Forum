@@ -12,6 +12,21 @@ Welcome to the Community Forum, a simple Django web app where users can connect,
 - **Authentication Redirect:** If a user tries to comment or reply to a thread without authentication, they will be redirected to the login page.
 - **Public Access:** Visitors can view a list of all threads, even without logging in.
 - **Thread Viewing:** Users can view all replies to a particular thread when logged in.
+## Screenshots
+![image](https://github.com/ViswasSomapongu/Community-Forum/assets/145599843/a781ee16-57fb-4e6a-a539-55332ff66baa)
+
+![image](https://github.com/ViswasSomapongu/Community-Forum/assets/145599843/e48ab0de-76d2-4755-bede-f008923d6194)
+
+![image](https://github.com/ViswasSomapongu/Community-Forum/assets/145599843/10b9012b-b0d9-4dad-81ef-c5adf3f2118c)
+
+![image](https://github.com/ViswasSomapongu/Community-Forum/assets/145599843/d1ce1a2b-fa84-4694-81e9-7422e7d82dd7)
+
+![image](https://github.com/ViswasSomapongu/Community-Forum/assets/145599843/70bf4a83-b72c-4db9-a1cc-d1f6c292421a)
+
+![image](https://github.com/ViswasSomapongu/Community-Forum/assets/145599843/a9d865b2-63ef-4602-b48b-3e8fc1f4bbe9)
+
+![image](https://github.com/ViswasSomapongu/Community-Forum/assets/145599843/9273d442-867c-4ef9-8e40-b097bf11e89b)
+
 
 ## Setup Instructions
 
@@ -19,7 +34,7 @@ Welcome to the Community Forum, a simple Django web app where users can connect,
 git clone https://github.com/ViswasSomapongu/Community-Forum.git
 
 ### Navigate to the project directory:
-cd community-forum
+cd communityproject
 
 ### Install the required dependencies:
 pip install -r requirements.txt
