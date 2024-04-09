@@ -1,0 +1,29 @@
+{% extends 'profileapp/base.html' %}
+
+{% block body %}
+
+<div class="container my-3">
+    <a href="{% url 'index' %}" class="btn btn-primary my-3">FORUM</a>
+    <h1 class="my-4 text-light">LOGIN</h1>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <div class="input-group mb-3 my-4">
+            <span class="input-group-text" id="inputGroup-sizing-default">Username</span>
+            {{ form.username }}
+        </div>
+        <div class="input-group mb-3 my-4">
+            <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
+            {{ form.password }}
+        </div>
+        <div style="color: red;">{{ form.errors }}</div>
+        <button type="submit" class="btn btn-success my-4 px-4">Login</button>
+        <a href="{% url 'register' %}" class="btn btn-danger my-4 mx-4">Go to Register</a>
+    </form>
+
+</div>
+<footer class="text-light mb-12">
+    <center>Copyright {% now "Y" %} Forum. All right Reseved.</center>
+</footer>
+
+
+{% endblock %}
