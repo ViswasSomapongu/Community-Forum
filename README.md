@@ -15,21 +15,21 @@ Welcome to the Community Forum, a simple Django web app where users can connect,
 
 ## Setup Instructions
 
-1. Clone the repository to your local machine:
+### Clone the repository to your local machine:
+git clone https://github.com/ViswasSomapongu/Community-Forum.git
 
-   ```bash
-   git clone https://github.com/ViswasSomapongu/Community-Forum.gi
-Navigate to the project directory:
+### Navigate to the project directory:
 cd community-forum
 
-Install the required dependencies:
+### Install the required dependencies:
 pip install -r requirements.txt
 
-Apply migrations to set up the database:
+### Apply migrations to set up the database:
 python manage.py migrate
 
-Create a superuser account to access the admin panel (optional):
+### Create a superuser account to access the admin panel (optional):
 python manage.py createsuperuser
 
-Run the development server:
+### Run the development server:
 python manage.py runserver
+
